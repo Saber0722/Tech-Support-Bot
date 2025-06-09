@@ -1,0 +1,69 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: app_not_loading
+  examples: |
+    - My app isn't loading
+    - The website won't open
+    - I'm stuck on the loading screen
+    - The app crashes on startup
+    - I can't access the app
+    - The app is not responding
+    - The app is frozen
+    - The app is not working
+
+- intent: forgot_password
+  examples: |
+    - I forgot my password
+    - How do I reset my password?
+    - can't log in, forgot credentials
+    - I need to reset my password
+    - I can't remember my password
+    - I need help with my password
+    - I forgot my login details
+    - I can't access my account
+    - I need to recover my password
+    - I lost my password
+
+- intent: slow_performance
+  examples: |
+    - The app is really slow
+    - Why is it lagging?
+    - Pages are taking forever to load
+    - The app is unresponsive
+    - The app is very slow
+    - The app is taking too long to respond
+    - The app is sluggish
+    - The app is not performing well
+    - The app is slow to respond
+    - The app is taking a long time to load
+    - The app is not working properly

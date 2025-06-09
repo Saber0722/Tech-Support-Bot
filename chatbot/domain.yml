@@ -1,0 +1,51 @@
+version: "3.1"
+intents:
+  - greet
+  - goodbye
+  - app_not_loading
+  - forgot_password
+  - slow_performance
+  - thank_you
+
+responses:
+  utter_greet:
+    - text: "Hello! I'm here to help you with any tech issues."
+    - text: "Hi there! What tech problem can I assist you with today?"
+    - text: "Greetings! How can I help you with your tech troubles?"
+    - text: "Hey! Need help with a tech issue? I'm here for you."
+    - text: "Welcome! What tech challenge are you facing today?"
+
+  utter_goodbye:
+    - text: "Goodbye! Hope your issue gets resolved."
+    - text: "See you later! If you need more help, just ask."
+    - text: "Take care! Don't hesitate to return if you have more tech questions."
+    - text: "Bye! Wishing you a smooth tech experience."
+
+  utter_app_not_loading:
+    - text: "Please try clearing your browser cache and restarting the app. If the issue persists, check your internet connection."
+    - text: "If the app isn't loading, try refreshing the page or restarting your device. If that doesn't work, let me know!"
+    - text: "An app not loading can be frustrating. First, try closing the app and reopening it. If that doesn't help, check for updates or reinstall the app."
+    - text: "If your app isn't loading, it might be a server issue or a problem with your internet connection. Try checking your Wi-Fi or mobile data."
+    - text: "Sometimes apps fail to load due to temporary glitches. Try clearing the app's cache or reinstalling it if the problem continues."
+
+  utter_forgot_password:
+    - text: "No worries! Just click 'Forgot Password' on the login screen. We'll send you a reset link via email."
+    - text: "If you've forgotten your password, you can reset it by clicking the 'Forgot Password' link. Follow the instructions in the email we send you."
+    - text: "To reset your password, click on the 'Forgot Password' link on the login page. You'll receive an email with instructions to set a new password."
+    - text: "Forgot your password? Just click the 'Forgot Password' link and follow the steps to reset it. You'll be back in no time!"
+    - text: "If you're having trouble remembering your password, use the 'Forgot Password' option. We'll guide you through resetting it securely."
+
+  utter_slow_performance:
+    - text: "Performance issues are often due to outdated apps or background processes. Try closing other apps and restarting your device."
+    - text: "If your device is running slow, it might help to clear some storage space or close unused applications. Restarting can also improve performance."
+    - text: "Slow performance can be caused by various factors. Try updating your apps, clearing cache, or restarting your device to see if that helps."
+    - text: "To improve performance, check if your device has enough storage space and close any unnecessary applications running in the background."
+    - text: "If your device is sluggish, consider checking for software updates or clearing the cache of frequently used apps. Restarting can also help speed things up."
+    - text: "Sometimes, slow performance is due to too many apps running at once. Try closing some apps and see if that improves the speed."
+
+  utter_thank_you:
+    - text: "You're welcome! Happy to help."
+    - text: "No problem! If you have any more questions, feel free to ask."
+    - text: "Glad I could assist you! Let me know if there's anything else you need."
+    - text: "Anytime! If you need further assistance, just let me know."
+    - text: "My pleasure! If you have more tech issues, I'm here to help."
