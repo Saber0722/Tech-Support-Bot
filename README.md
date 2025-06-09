@@ -4,6 +4,9 @@ A full‑stack tech support chatbot platform, built with Rasa (Python) for chatb
 
 ---
 
+## Demo Output
+![Chatbot](https://github.com/user-attachments/assets/6d71eee5-e746-40d2-87d6-337ea8c76848)
+
 ## 🧠 Tech Stack & Overview
 
 * **Chatbot (Rasa)**
